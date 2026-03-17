@@ -11,11 +11,11 @@ class Book extends Model
 
     protected $fillable = [
         'title',
+        'author',
         'description',
         'ISBN',
         'total_copies',
-        'available_copies',
-        'is_available',
+        'available_copies'
     ];
 
     public function loans()
